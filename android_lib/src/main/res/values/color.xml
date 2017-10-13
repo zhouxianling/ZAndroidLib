@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="content_color">#343434</color>
+    <color name="tip_color">#6C6C6C</color>
+    <color name="retry_color">#C0C0C0</color>
+    <color name="colorPrimary">#06C1AE</color>
+    <color name="colorPrimaryDark">#06C1AE</color>
+    <color name="colorAccent">#06C1AE</color>
+
+
+    <color name="black100">#FF000000</color>
+    <color name="black90">#ff0a0a0a</color>
+    <color name="black80">#ff222222</color>
+    <color name="black50">#ff404040</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white90">#fff4f4f4</color>
+    <color name="white80">#ffe6e6e6</color>
+    <color name="white50">#ffc3c3c3</color>
+
+    <color name="gray">#DFDFDF</color>
+    <color name="halfalpha">#1e111111</color>
+
+    <!-- 常用文本颜色 -->
+    <color name="text_black">#000000</color>
+    <color name="text_dark">#2b2b2b</color>
+    <color name="text_gray">#666666</color>
+    <color name="text_light">#a3a3a3</color>
+    <color name="text_red">#E00013</color>
+    <color name="text_green">#27C16E</color>
+
+    <!-- 常用夜间文本颜色 -->
+    <color name="text_black_night">#cccccc</color>
+    <color name="text_dark_night">#bbbbbb</color>
+    <color name="text_gray_night">#999999</color>
+    <color name="text_light_night">#999999</color>
+    <color name="text_red_night">#ffaf000f</color>
+    <color name="text_green_night">#ff1e9555</color>
+</resources>
