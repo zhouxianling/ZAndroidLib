@@ -3,7 +3,7 @@
     android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="48dp"
-    android:background="@color/colorPrimary">
+    android:background="@mipmap/transparent_bg">
 
     <TextView
         android:id="@+id/tv_title"
