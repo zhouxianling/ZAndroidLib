@@ -20,7 +20,7 @@ import android.widget.TextView;
 
 import com.zxl.zlibrary.R;
 
-import static com.zxl.zlibrary.tool.LToolHelper.getContext;
+import static com.zxl.zlibrary.tool.LTool.getContext;
 
 
 /**

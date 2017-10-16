@@ -6,7 +6,7 @@ import android.content.Context;
  * @author Xianling.Zhou
  * @since 2017/10/11
  */
-public class LToolHelper {
+public class LTool {
 
     private static Context context;
 
@@ -16,7 +16,9 @@ public class LToolHelper {
      * @param context 上下文
      */
     public static void init(Context context) {
-        LToolHelper.context = context.getApplicationContext();
+        LTool.context = context.getApplicationContext();
+        // 初始化配置assets文件模块
+        LServerConfig.initServerConfig(context);
     }
 
     /**

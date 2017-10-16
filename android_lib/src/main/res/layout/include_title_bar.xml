@@ -29,6 +29,7 @@
             android:id="@+id/iv_left"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:maxWidth="24dp"
             android:scaleType="centerInside"
             android:src="@drawable/ic_back_white_24dp" />
 
@@ -36,6 +37,7 @@
             android:id="@+id/tv_left"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
             android:gravity="center"
             android:text="返回"
             android:textColor="@color/white" />
@@ -50,7 +52,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:gravity="center">
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
 
         <TextView
             android:id="@+id/tv_right"
@@ -62,8 +66,10 @@
 
         <ImageView
             android:id="@+id/iv_right"
-            android:layout_width="48dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:maxWidth="24dp"
             android:scaleType="centerInside"
             android:src="@drawable/ic_android_white_24dp" />
 

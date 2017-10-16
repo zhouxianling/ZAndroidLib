@@ -98,8 +98,9 @@ public class LayoutHelper {
             LoadingViewHolder holder = new LoadingViewHolder(view);
             view.setTag(holder);
 
-            ProgressBar progressBar = new ProgressBar(view.getContext());
-            holder.mFrameLayout.addView(progressBar);
+//            ProgressBar progressBar = new ProgressBar(view.getContext());
+            View defaultLoading = View.inflate(view.getContext(), R.layout.default_loading, null);
+            holder.mFrameLayout.addView(defaultLoading);
 
             if (!TextUtils.isEmpty(item.getTip())) {
                 holder.mTvTip.setText(item.getTip());
