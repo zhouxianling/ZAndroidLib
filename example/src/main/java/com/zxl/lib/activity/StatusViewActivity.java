@@ -42,6 +42,8 @@ public class StatusViewActivity extends AppCompatActivity {
 
     private void initData() {
         statusView.onLoadingView();
+
+
         titleBar.setLeftIconOnClickListener(view -> finish());
         statusView.setOnViewRefreshListener(() -> {
             statusView.onLoadingView();
