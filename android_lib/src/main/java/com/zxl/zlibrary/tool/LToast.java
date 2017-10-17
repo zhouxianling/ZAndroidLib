@@ -54,7 +54,6 @@ public class LToast {
      * LToast 替代方法 ：立即显示无需等待
      */
     private static android.widget.Toast mToast;
-    private static long mExitTime;
 
     public static void normal(@NonNull String message) {
         normal(getContext(), message, android.widget.Toast.LENGTH_SHORT, null, false).show();
@@ -380,14 +379,5 @@ public class LToast {
             mToast.setText(msg);
         }
         mToast.show();
-    }
-
-    public static boolean doubleClickExit() {
-        if ((System.currentTimeMillis() - mExitTime) > 2000) {
-            LToast.normal("再按一次退出");
-            mExitTime = System.currentTimeMillis();
-            return false;
-        }
-        return true;
     }
 }

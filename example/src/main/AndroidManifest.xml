@@ -20,6 +20,10 @@
 
         <activity android:name=".activity.StatusViewActivity" />
         <activity android:name=".activity.TitleBarActivity" />
+        <activity android:name=".activity.AnimatorActivity" />
+        <activity android:name=".activity.BaseUrlActivity" />
+        <activity android:name=".activity.LToastActivity" />
+        <activity android:name=".activity.TestActivity" />
 
     </application>
 

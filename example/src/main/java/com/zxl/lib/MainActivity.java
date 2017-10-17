@@ -6,7 +6,11 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
 import com.zxl.lib.adapter.MyViewPagerAdapter;
+import com.zxl.lib.fragment.OtherFragment;
+import com.zxl.lib.fragment.SettingFragment;
+import com.zxl.lib.fragment.ToolFragment;
 import com.zxl.lib.fragment.ViewFragment;
+import com.zxl.zlibrary.tool.LToast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,16 +41,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         init();
+
     }
 
+
     private void init() {
-
         fragments = new ArrayList<>();
-
         fragments.add(ViewFragment.newInstance());
-        fragments.add(ViewFragment.newInstance());
-        fragments.add(ViewFragment.newInstance());
-        fragments.add(ViewFragment.newInstance());
+        fragments.add(ToolFragment.newInstance());
+        fragments.add(OtherFragment.newInstance());
+        fragments.add(SettingFragment.newInstance());
 
         //这里可以设置样式模式，总共可以组合出4种效果
         mController = tab.material()

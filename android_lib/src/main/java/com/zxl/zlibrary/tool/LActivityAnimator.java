@@ -9,7 +9,11 @@ import com.zxl.zlibrary.R;
  * activity跳转的动画
  */
 public class LActivityAnimator {
-
+    /**
+     * 水平翻转
+     *
+     * @param a
+     */
     public static void flipHorizontalAnimation(Activity a) {
         a.overridePendingTransition(R.anim.flip_horizontal_in, R.anim.flip_horizontal_out);
     }
