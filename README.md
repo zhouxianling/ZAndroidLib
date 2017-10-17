@@ -32,9 +32,11 @@ android开发库，里面将会包含常用的View，常用的工具类等等
             }
         }
    
-   ### 自定义View介绍
-   1. LTitleBarView通用标题
-     
-  
    
+   ## LTitleBarView通用标题
+   ### 效果
+   
+   ![ScreenShot](./img/title.gif)
+   
+   
    
