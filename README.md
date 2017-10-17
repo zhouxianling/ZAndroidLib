@@ -19,6 +19,7 @@ android开发库，里面将会包含常用的View，常用的工具类等等
         }
   
   ## 介绍
+  
   ### 在使用之前你必须先初始化
   
        
@@ -34,6 +35,7 @@ android开发库，里面将会包含常用的View，常用的工具类等等
    
    
    ## LTitleBarView通用标题
+   
    ### 效果
    
    ![ScreenShot](./img/title.gif)
