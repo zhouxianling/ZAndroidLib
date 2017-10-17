@@ -19,4 +19,22 @@ android开发库，里面将会包含常用的View，常用的工具类等等
         }
   
   ## 介绍
+  ### 在使用之前你必须先初始化
   
+       
+        public class App extends Application {
+            @Override
+            public void onCreate() {
+                super.onCreate();
+                //使用工具类必须先初始化
+                LTool.init(this);
+        
+            }
+        }
+   
+   ### 自定义View介绍
+   1. LTitleBarView通用标题
+     
+  
+   
+   

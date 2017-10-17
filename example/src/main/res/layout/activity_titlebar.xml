@@ -24,4 +24,33 @@
         app:rightText="设置"
         app:rightTextVisibility="true"
         app:title="通用标题" />
+
+
+    <com.zxl.zlibrary.view.LTitleBarView
+        android:id="@+id/titleBar3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_green"
+        app:leftText="返回"
+        app:rightIconVisibility="true"
+        app:rightText="设置"
+        app:title="通用标题" />
+
+
+    <com.zxl.zlibrary.view.LTitleBarView
+        android:id="@+id/titleBar4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_green"
+        app:leftIconVisibility="false"
+        app:leftText="取消"
+        app:leftTextSize="16sp"
+        app:leftTextVisibility="true"
+        app:rightText="确定"
+        app:rightTextSize="16sp"
+        app:rightTextVisibility="true"
+        app:title="通用标题" />
+
 </LinearLayout>
