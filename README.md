@@ -38,7 +38,7 @@ android开发库，里面将会包含常用的View，常用的工具类等等
  
  ### 效果
  
- ![ScreenShot](./img/title.png)
+ ![ScreenShot](./img/title.png) 
  
  ### xml使用
         <com.zxl.zlibrary.view.LTitleBarView
@@ -102,4 +102,4 @@ android开发库，里面将会包含常用的View，常用的工具类等等
               </declare-styleable>
    
 ### 方法
-    
+     ![ScreenShot](./img/status.png)
