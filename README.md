@@ -79,20 +79,21 @@ android开发库，里面将会包含常用的View，常用的工具类等等
   ### 1. 效果
   ![ScreenShot](./img/status.gif)
  
-  ### 2. xml使用
-           <com.zxl.zlibrary.view.statusview.LStatusView
-                android:id="@+id/statusView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                 //注意只能有一个子控件
-                <FrameLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+  ### 2. xml使用 （//注意只能有一个子控件）
+  
+    <com.zxl.zlibrary.view.statusview.LStatusView
+        android:id="@+id/statusView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
 
-                </FrameLayout>
+        </FrameLayout>
 
-           </com.zxl.zlibrary.view.statusview.LStatusView>
+    </com.zxl.zlibrary.view.statusview.LStatusView>
 
                    
   ### 3. 属性
