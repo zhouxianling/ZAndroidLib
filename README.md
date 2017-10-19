@@ -119,3 +119,13 @@ android开发库，里面将会包含常用的View，常用的工具类等等
 4. 方法
 
     ![ScreenShot](./img/status_1.png)
+
+
+## 工具类部分说明
+        
+        LDensityTool // 单位转换工具类
+        LogTool  //log打印工具
+        LToast  //吐司工具
+        
+        
+ 
