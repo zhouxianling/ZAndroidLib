@@ -119,8 +119,8 @@ android开发库，里面将会包含常用的View，常用的工具类等等
    
 4. 方法
 
-<<<<<<< HEAD
-    ![ScreenShot](./img/status_1.png)
+![ScreenShot](./img/status_1.png)
+
 
 
 ## 工具类部分说明
@@ -130,7 +130,3 @@ android开发库，里面将会包含常用的View，常用的工具类等等
         LToast  //吐司工具
         
         
- 
-=======
-![ScreenShot](./img/status_1.png)
->>>>>>> bfdbe36b6e6932b793435cb7bc438524e2a9be7b
