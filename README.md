@@ -34,13 +34,16 @@ android开发库，里面将会包含常用的View，常用的工具类等等
         }
    
  
- ## LTitleBarView通用标题
+ ## 自定义View部分
  
- ### 1. 效果
+   + **LTitleBarView通用标题**
+  
+ 1. 效果
  
  ![ScreenShot](./img/title.png) 
  
- ### 2. xml使用
+2. xml使用
+
         <com.zxl.zlibrary.view.LTitleBarView
                 android:id="@+id/titleBar2"
                 android:layout_width="match_parent"
@@ -54,7 +57,8 @@ android开发库，里面将会包含常用的View，常用的工具类等等
                 app:rightTextVisibility="true"
                 app:title="通用标题" />
  
- ### e. 属性
+3. 属性
+
         <declare-styleable name="LTitleBarView">
                 <attr name="title" format="string" />
                 <attr name="titleColor" format="color" />
@@ -74,12 +78,13 @@ android开发库，里面将会包含常用的View，常用的工具类等等
                 <attr name="rightIconVisibility" format="boolean" />
             </declare-styleable>
   
-  ## LStatusView页面状态
+ + LStatusView页面状态
   
-  ### 1. 效果
+1. 效果
+
   ![ScreenShot](./img/status.gif)
  
-  ### 2. xml使用 （//注意只能有一个子控件）
+2. xml使用 （//注意只能有一个子控件）
   
             <com.zxl.zlibrary.view.statusview.LStatusView
                 android:id="@+id/statusView"
@@ -96,7 +101,8 @@ android开发库，里面将会包含常用的View，常用的工具类等等
             </com.zxl.zlibrary.view.statusview.LStatusView>
 
                    
-  ### 3. 属性
+ 3. 属性
+ 
            <declare-styleable name="LStatusView">
                   <!-- 错误提示图标 -->
                   <attr name="errorImg" format="reference" />
@@ -110,6 +116,6 @@ android开发库，里面将会包含常用的View，常用的工具类等等
                   <attr name="loadingText" format="string" />
               </declare-styleable>
    
-### 4. 方法
+4. 方法
 
   ![ScreenShot](./img/status_1.png)
