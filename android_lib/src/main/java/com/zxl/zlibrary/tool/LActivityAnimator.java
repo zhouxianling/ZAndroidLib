@@ -5,8 +5,13 @@ import android.app.Activity;
 
 import com.zxl.zlibrary.R;
 
+
+
 /**
- * activity跳转的动画
+ * [activity跳转的动画]
+ *
+ * @author Xianling.Zhou
+ * @since 2017/10/19
  */
 public class LActivityAnimator {
     /**

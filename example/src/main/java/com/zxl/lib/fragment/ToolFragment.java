@@ -15,11 +15,10 @@ import com.zxl.lib.R;
 import com.zxl.lib.activity.AnimatorActivity;
 import com.zxl.lib.activity.BaseUrlActivity;
 import com.zxl.lib.activity.LToastActivity;
-import com.zxl.lib.activity.StatusViewActivity;
-import com.zxl.lib.activity.TitleBarActivity;
 import com.zxl.lib.adapter.MyAdapter;
 import com.zxl.zlibrary.tool.LActivityAnimator;
-import com.zxl.zlibrary.tool.LToast;
+import com.zxl.zlibrary.tool.LCacheTool;
+import com.zxl.zlibrary.tool.LEmptyTool;
 import com.zxl.zlibrary.view.LTitleBarView;
 
 import java.util.ArrayList;
@@ -68,6 +67,7 @@ public class ToolFragment extends Fragment implements BaseQuickAdapter.OnItemCli
         mData.add("弹窗LToast");
         mData.add("baseUrl封装");
 
+
         mAdapter = new MyAdapter(mData);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(mAdapter);
@@ -85,7 +85,6 @@ public class ToolFragment extends Fragment implements BaseQuickAdapter.OnItemCli
         switch (position) {
             //Activity跳转动画LActivityAnimator
             case 0:
-                LToast.normal("啦啦");
                 startActivity(new Intent(getContext(), AnimatorActivity.class));
                 LActivityAnimator.PullRightPushLeft(getActivity());
                 break;
@@ -100,7 +99,6 @@ public class ToolFragment extends Fragment implements BaseQuickAdapter.OnItemCli
                 LActivityAnimator.PullRightPushLeft(getActivity());
                 break;
             default:
-
                 break;
         }
     }

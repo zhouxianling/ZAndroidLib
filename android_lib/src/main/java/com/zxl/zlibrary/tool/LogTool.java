@@ -18,14 +18,12 @@ package com.zxl.zlibrary.tool;
 import android.text.TextUtils;
 import android.util.Log;
 
+
 /**
- * Log工具，类似android.util.Log。
- * tag自动产生，格式: customTagPrefix:className.methodName(L:lineNumber),
- * customTagPrefix为空时只输出：className.methodName(L:lineNumber)。
- * <p/>
- * Author: wyouflf
- * Date: 13-7-24
- * Time: 下午12:23
+ * [Log工具]
+ *
+ * @author Xianling.Zhou
+ * @since 2017/10/19
  */
 public class LogTool {
 

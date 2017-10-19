@@ -3,6 +3,8 @@ package com.zxl.zlibrary.tool;
 import android.content.Context;
 
 /**
+ * tool初始化
+ *
  * @author Xianling.Zhou
  * @since 2017/10/11
  */

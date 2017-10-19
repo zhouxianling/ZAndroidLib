@@ -121,12 +121,20 @@ android开发库，里面将会包含常用的View，常用的工具类等等
 
 ![ScreenShot](./img/status_1.png)
 
-
-
 ## 工具类部分说明
         
         LDensityTool // 单位转换工具类
         LogTool  //log打印工具
         LToast  //吐司工具
+        LCacheTool    //缓存相关工具类
+        LEmptyTool  //对象判空工具类
+        LFileIOTool  //IO读写工具类
+        LFileTool  //文件操作工具类
+        LImageTool  //图片处理相关工具类
+        LNetworkTool //网络先关工具类
+        LRegeTool  //正则工具类
+        LScreenTool  //屏幕相关工具类
+        LStatusBarTool  //状态栏工具类
+        LTimeTool  //处理时间工具类
         
         
