@@ -82,7 +82,7 @@ android开发库，里面将会包含常用的View，常用的工具类等等
   
 1. 效果
 
-  ![ScreenShot](./img/status.gif)
+    ![ScreenShot](./img/status.gif)
  
 2. xml使用 （//注意只能有一个子控件）
   
@@ -118,4 +118,4 @@ android开发库，里面将会包含常用的View，常用的工具类等等
    
 4. 方法
 
-  ![ScreenShot](./img/status_1.png)
+    ![ScreenShot](./img/status_1.png)
