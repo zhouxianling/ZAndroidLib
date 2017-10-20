@@ -136,5 +136,7 @@ android开发库，里面将会包含常用的View，常用的工具类等等
         LScreenTool  //屏幕相关工具类
         LStatusBarTool  //状态栏工具类
         LTimeTool  //处理时间工具类
-        
-        
+        LKVTool  //KV是一个简单的key-value存取类，对SharePreference进行了封装。
+        LLoginControl    //通过SharePreference对账号密码进行保存。
+        LExitDoubleClick //双击退出Activity的类。
+        LActivityTool //Activity相关工具类
