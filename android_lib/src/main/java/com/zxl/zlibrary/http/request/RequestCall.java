@@ -2,8 +2,8 @@ package com.zxl.zlibrary.http.request;
 
 
 
-import com.htkj.okhttp.http.OkHttpUtils;
-import com.htkj.okhttp.http.callback.Callback;
+import com.zxl.zlibrary.http.OkHttpUtils;
+import com.zxl.zlibrary.http.callback.Callback;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
