@@ -23,4 +23,6 @@ dependencies {
 
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.github.ybq:Android-SpinKit:1.1.0'
+    compile 'com.alibaba:fastjson:1.1.64.android'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
 }
