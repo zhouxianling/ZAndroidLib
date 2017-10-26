@@ -21,22 +21,22 @@ import com.zxl.zlibrary.R;
  * @author Xianling.Zhou
  * @since 2017/10/26
  */
-public class ClearEditText extends AppCompatEditText implements View.OnFocusChangeListener, TextWatcher {
+public class LClearEditText extends AppCompatEditText implements View.OnFocusChangeListener, TextWatcher {
     //删除按钮的引用
     private Drawable mClearDrawable;
     //控件是否有焦点
     private boolean hasFocus;
 
-    public ClearEditText(Context context) {
+    public LClearEditText(Context context) {
         this(context, null);
     }
 
-    public ClearEditText(Context context, AttributeSet attrs) {
+    public LClearEditText(Context context, AttributeSet attrs) {
         //这里构造方法也很重要，不加这个很多属性不能再XML里面定义
         this(context, attrs, android.R.attr.editTextStyle);
     }
 
-    public ClearEditText(Context context, AttributeSet attrs, int defStyle) {
+    public LClearEditText(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init();
     }

@@ -13,8 +13,13 @@
         app:leftIconVisibility="false"
         app:title="View" />
 
+    <com.zxl.zlibrary.view.LCheckBox
+        android:layout_width="24dp"
+        app:stroke_width="1px"
+        android:layout_height="24dp" />
 
-    <com.zxl.zlibrary.view.ClearEditText
+
+    <com.zxl.zlibrary.view.LClearEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
