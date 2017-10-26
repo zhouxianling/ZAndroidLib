@@ -121,6 +121,15 @@ android开发库，里面将会包含常用的View，常用的工具类等等
 
 ![ScreenShot](./img/status_1.png)
 
++ ClearEditText带清除功能的输入框
+
+         待完善
+
+
++ LCheckBox自定义checkbox
+
+        待完善
+
 ## 工具类部分说明
         
         LDensityTool // 单位转换工具类
