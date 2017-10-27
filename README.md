@@ -15,7 +15,7 @@ android开发库，里面将会包含常用的View，常用的工具类等等
  2. 然后在 build.gradle(Module:app) 的 dependencies 添加
   
           dependencies {
-                compile 'com.github.zhouxianling:ZAndroidLib:v1.5.4'
+                compile 'com.github.zhouxianling:ZAndroidLib:v1.5.5'
         }
   
   ## 介绍
