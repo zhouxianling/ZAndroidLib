@@ -22,6 +22,35 @@ public class LTool {
     static WeakReference<Activity> sTopActivityWeakRef;
     static List<Activity> sActivityList = new LinkedList<>();
 
+
+    private LTool() {
+        throw new UnsupportedOperationException("u can't instantiate me...");
+    }
+
+    /**
+     * 初始化工具类
+     *
+     * @param application
+     */
+    public static void init(Application application) {
+        LTool.context = application.getApplicationContext();
+        // 初始化配置assets文件模块
+        LServerConfig.initServerConfig(application.getApplicationContext());
+        application.registerActivityLifecycleCallbacks(mCallbacks);
+    }
+
+    /**
+     * 在某种获取不到 Context 的情况下，即可以使用才方法获取 Context
+     * <p>
+     * 获取ApplicationContext
+     *
+     * @return ApplicationContext
+     */
+    public static Context getContext() {
+        if (context != null) return context;
+        throw new NullPointerException("请先调用init()方法");
+    }
+
     private static Application.ActivityLifecycleCallbacks mCallbacks = new Application.ActivityLifecycleCallbacks() {
         @Override
         public void onActivityCreated(Activity activity, Bundle bundle) {
@@ -59,33 +88,6 @@ public class LTool {
             sActivityList.remove(activity);
         }
     };
-
-    private LTool() {
-        throw new UnsupportedOperationException("u can't instantiate me...");
-    }
-
-    /**
-     * 初始化工具类
-     *
-     * @param context 上下文
-     */
-    public static void init(Context context) {
-        LTool.context = context.getApplicationContext();
-        // 初始化配置assets文件模块
-        LServerConfig.initServerConfig(context);
-    }
-
-    /**
-     * 在某种获取不到 Context 的情况下，即可以使用才方法获取 Context
-     * <p>
-     * 获取ApplicationContext
-     *
-     * @return ApplicationContext
-     */
-    public static Context getContext() {
-        if (context != null) return context;
-        throw new NullPointerException("请先调用init()方法");
-    }
 
     private static void setTopActivityWeakRef(Activity activity) {
         if (sTopActivityWeakRef == null || !activity.equals(sTopActivityWeakRef.get())) {
