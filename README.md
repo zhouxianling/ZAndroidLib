@@ -148,3 +148,4 @@ android开发库，里面将会包含常用的View，常用的工具类等等
         LKVTool  //KV是一个简单的key-value存取类，对SharePreference进行了封装。
         LLoginControl    //通过SharePreference对账号密码进行保存。
         LActivityTool //Activity相关工具类
+        LWebViewTool //webview工具类
