@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 
 import com.zxl.lib.R;
-import com.zxl.zlibrary.view.LTitleBarView;
 import com.zxl.zlibrary.view.statusview.LStatusView;
 
 import butterknife.BindView;
@@ -23,8 +22,7 @@ public class StatusViewActivity extends AppCompatActivity {
 
     @BindView(R.id.statusView)
     LStatusView statusView;
-    @BindView(R.id.titleBar)
-    LTitleBarView titleBar;
+
     @BindView(R.id.btn_loading)
     Button btnLoading;
     @BindView(R.id.btn_empty)
@@ -44,7 +42,6 @@ public class StatusViewActivity extends AppCompatActivity {
         statusView.onLoadingView();
 
 
-        titleBar.setLeftIconOnClickListener(view -> finish());
         statusView.setOnViewRefreshListener(() -> {
             statusView.onLoadingView();
         });

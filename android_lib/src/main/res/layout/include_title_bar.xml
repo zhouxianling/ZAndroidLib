@@ -31,7 +31,7 @@
             android:layout_height="match_parent"
             android:maxWidth="24dp"
             android:scaleType="centerInside"
-            android:src="@drawable/ic_back_white_24dp" />
+            android:src="@mipmap/ic_white_back" />
 
         <TextView
             android:id="@+id/tv_left"
@@ -71,7 +71,7 @@
             android:layout_marginLeft="4dp"
             android:maxWidth="24dp"
             android:scaleType="centerInside"
-            android:src="@drawable/ic_android_white_24dp" />
+            android:src="@mipmap/ic_setting_white" />
 
     </LinearLayout>
 </RelativeLayout>

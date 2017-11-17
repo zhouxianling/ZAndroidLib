@@ -6,12 +6,24 @@
     android:orientation="vertical">
 
     <com.zxl.zlibrary.view.LTitleBarView
-        android:id="@+id/titleBar"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:background="@color/colorPrimary"
-        app:leftIconVisibility="false"
-        app:title="其他" />
+        app:title="测试">
+
+    </com.zxl.zlibrary.view.LTitleBarView>
+
+    <com.zxl.zlibrary.view.statusview.LStatusView
+        android:id="@+id/statusView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+    </com.zxl.zlibrary.view.statusview.LStatusView>
 
 
 </LinearLayout>

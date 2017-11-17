@@ -16,7 +16,7 @@
             android:id="@+id/iv_img"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/ic_empty_gray_24dp" />
+            android:src="@mipmap/ic_empty_gray" />
 
         <TextView
             android:id="@+id/tv_message"

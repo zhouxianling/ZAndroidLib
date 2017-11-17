@@ -6,11 +6,12 @@
     android:orientation="vertical">
 
     <com.zxl.zlibrary.view.LTitleBarView
-        android:id="@+id/titleBar"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="@color/colorPrimary"
-        app:title="animator" />
+        android:background="@color/colorPrimary">
+
+
+    </com.zxl.zlibrary.view.LTitleBarView>
 
     <Button
         android:id="@+id/btn1"

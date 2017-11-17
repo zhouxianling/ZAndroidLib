@@ -8,7 +8,6 @@ import android.widget.Button;
 
 import com.zxl.lib.R;
 import com.zxl.zlibrary.tool.LToast;
-import com.zxl.zlibrary.view.LTitleBarView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -21,8 +20,7 @@ import butterknife.OnClick;
 
 public class LToastActivity extends AppCompatActivity {
 
-    @BindView(R.id.titleBar)
-    LTitleBarView titleBar;
+
     @BindView(R.id.btn_normal)
     Button btnNormal;
     @BindView(R.id.btn_error)
@@ -40,7 +38,6 @@ public class LToastActivity extends AppCompatActivity {
         setContentView(R.layout.activity_ltoast);
         ButterKnife.bind(this);
 
-        titleBar.setLeftIconOnClickListener(view -> finish());
 
     }
 

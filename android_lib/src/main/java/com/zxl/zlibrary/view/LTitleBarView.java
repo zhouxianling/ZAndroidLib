@@ -88,7 +88,7 @@ public class LTitleBarView extends FrameLayout {
             //TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 16, getResources().getDisplayMetrics())
             mTitleVisibility = a.getBoolean(R.styleable.LTitleBarView_titleVisibility, true);
 
-            mLeftIcon = a.getResourceId(R.styleable.LTitleBarView_leftIcon, R.drawable.ic_back_white_24dp);//左边图标
+            mLeftIcon = a.getResourceId(R.styleable.LTitleBarView_leftIcon, R.mipmap.ic_white_back);//左边图标
             mRightIcon = a.getResourceId(R.styleable.LTitleBarView_rightIcon, R.drawable.set);//右边图标
             mLeftIconVisibility = a.getBoolean(R.styleable.LTitleBarView_leftIconVisibility, true);//左边图标是否显示
             mRightIconVisibility = a.getBoolean(R.styleable.LTitleBarView_rightIconVisibility, false);//右边图标是否显示

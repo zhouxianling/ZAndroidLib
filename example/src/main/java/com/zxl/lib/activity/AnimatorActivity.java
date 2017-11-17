@@ -9,7 +9,6 @@ import android.widget.Button;
 
 import com.zxl.lib.R;
 import com.zxl.zlibrary.tool.LActivityAnimator;
-import com.zxl.zlibrary.view.LTitleBarView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -22,8 +21,7 @@ import butterknife.OnClick;
 
 public class AnimatorActivity extends AppCompatActivity {
 
-    @BindView(R.id.titleBar)
-    LTitleBarView titleBar;
+
     @BindView(R.id.btn1)
     Button btn1;
     @BindView(R.id.btn2)
@@ -41,7 +39,6 @@ public class AnimatorActivity extends AppCompatActivity {
         setContentView(R.layout.activity_animator);
         ButterKnife.bind(this);
 
-        titleBar.setLeftIconOnClickListener(view -> finish());
     }
 
     @OnClick({R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4, R.id.btn5})
