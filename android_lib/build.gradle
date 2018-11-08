@@ -3,12 +3,12 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.zhouxianling'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
 //    buildToolsVersion "26.0.2"
 
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 26
+        minSdkVersion 15
+        targetSdkVersion 28
 
         vectorDrawables.useSupportLibrary = true
     }
